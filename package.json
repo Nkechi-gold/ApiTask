@@ -1,0 +1,194 @@
+{
+	"id": "a3459bd6-cb81-4aab-96d3-c417f0e93667",
+	"name": "Testity Task",
+	"timestamp": "2020-10-13T22:57:46.021Z",
+	"collection_id": "33766b3b-0235-4a32-aa99-be39e1ffd123",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "74d1fa91-48fe-414f-b01e-3539d74f7d09",
+			"name": "get employee",
+			"url": "http://dummy.restapiexample.com/api/v1/employees",
+			"time": 1388,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1388
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5121d509-4b62-4a9c-aca8-b04dbdcf1764",
+			"name": "get employee id",
+			"url": "http://dummy.restapiexample.com/api/v1/employee/1",
+			"time": 882,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				882
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bcd963d8-5bd9-42f8-a59f-e14fb45c83a6",
+			"name": "create record",
+			"url": "http://dummy.restapiexample.com/api/v1/create",
+			"time": 876,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				876
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "96e4f113-3b35-45b3-b62b-3e90a1f8291d",
+			"name": "create user",
+			"url": "https://reqres.in/api/users",
+			"time": 489,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				489
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1d2a3b6c-6071-467d-bdd7-4683dd4aee37",
+			"name": "User login",
+			"url": "https://reqres.in/api/login",
+			"time": 178,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				178
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "888e705b-d19c-487a-aeb0-707f24ca20ec",
+			"name": "update employee id",
+			"url": "http://dummy.restapiexample.com/api/v1/update/21",
+			"time": 930,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				930
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d4aa6854-038d-4dce-bffb-61afb6039f4c",
+			"name": "delete employee id.",
+			"url": "http://dummy.restapiexample.com/api/v1/update/45%0A",
+			"time": 176,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				176
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "50da7b77-4565-4edc-aa3e-c4b8f5666672",
+			"name": "delete user",
+			"url": "https://reqres.in/api/users/251",
+			"time": 166,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				166
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 5085,
+	"collection": {
+		"requests": [
+			{
+				"id": "74d1fa91-48fe-414f-b01e-3539d74f7d09",
+				"method": "POST"
+			},
+			{
+				"id": "5121d509-4b62-4a9c-aca8-b04dbdcf1764",
+				"method": "GET"
+			},
+			{
+				"id": "bcd963d8-5bd9-42f8-a59f-e14fb45c83a6",
+				"method": "POST"
+			},
+			{
+				"id": "96e4f113-3b35-45b3-b62b-3e90a1f8291d",
+				"method": "POST"
+			},
+			{
+				"id": "1d2a3b6c-6071-467d-bdd7-4683dd4aee37",
+				"method": "POST"
+			},
+			{
+				"id": "888e705b-d19c-487a-aeb0-707f24ca20ec",
+				"method": "PUT"
+			},
+			{
+				"id": "d4aa6854-038d-4dce-bffb-61afb6039f4c",
+				"method": "DELETE"
+			},
+			{
+				"id": "50da7b77-4565-4edc-aa3e-c4b8f5666672",
+				"method": "GET"
+			}
+		]
+	}
+}
